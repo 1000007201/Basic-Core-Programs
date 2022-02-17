@@ -1,5 +1,10 @@
 
 def primeFactors(number):
+    '''
+    Prints Prime factor of given number
+    :param number:
+    :return: Null
+    '''
     while number % 2 == 0:
         print(2,)
         number = number / 2
@@ -15,4 +20,5 @@ def primeFactors(number):
 
 
 number = int(input("Enter number:"))
+print(primeFactors.__doc__)
 primeFactors(number)
